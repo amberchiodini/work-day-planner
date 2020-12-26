@@ -1,0 +1,52 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+th {
+    background-color: white;
+}
+
+th, td {
+    border-right: 1px solid lightgrey;
+}
+
+.time {
+    border-left: 1px solid lightgray;
+}
+
+.input-cell {
+    padding: 0px !important;
+    position: relative;
+}
+
+.input-area {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border: 0;
+    padding: 5px 0px 0px 10px;
+    position: absolute;
+}
+
+.save-button-cell {
+    background-color: lightgray;
+}
+
+.time, .save-button-cell {
+    width: 5%;
+}
+
+#title-date, #title-time {
+    margin: 0;
+}
+
+.sticky-footer {
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
+}
+
+.text-muted {
+    color: black !important;
+}
